@@ -3,7 +3,7 @@
 #include <wiringPiI2C.h>
 #include "inv_mpu.h"
 #include "inv_mpu_dmp_motion_driver.h"
-
+/*仅仅是做测试使用，所以main写得尽量简略，明了简单*/
 int main (void)
 { 
 	if (wiringPiSetup()==-1) 
